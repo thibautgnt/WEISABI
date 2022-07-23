@@ -1,0 +1,273 @@
+* {box-sizing: border-box;
+  font-family: Sora;
+
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("fonts/Sora-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sora-Bold";
+  src: url("fonts/Sora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Sora-Light";
+  src: url("fonts/Sora-Light.ttf");
+}
+
+body { 
+  margin: 0;
+  font-family: Sora;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  transition: .25s;
+}
+button{
+  background: transparent;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 600;
+  height: 2em;
+  letter-spacing: -.025em;
+  transition: .25s;
+  color: white;
+}
+button:hover{
+  color: white;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+img{
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 80%;
+  width: 75%;
+  padding: 10px 0 10px 0;
+}
+
+p{
+  color: #D63341;
+  font-size: .875em;
+  hyphens: auto;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+h1 {
+  color : #D63341;
+}
+
+h2 {
+  color : #D63341;
+}
+
+h3 {
+  color : #D63341;
+}
+
+h4 {
+  color : #D63341;
+}
+
+h5 {
+  color : #D63341;
+}
+
+button.type1  {
+  background-color: #D63341;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 15px;
+}
+
+
+/* ---------- HEADER ---------- */
+.container{
+  padding: 0.1em 2.1em 0.1em 2.1em;
+}
+.flex-container{
+  display: flex;
+}
+
+/* HEADER NAV */
+.logo-link{
+  color: var(--dark-color);
+  font-weight: 600;
+  letter-spacing: .125em;
+}
+.header-nav{
+  align-items: center;
+  flex-direction: column;
+  background-color: #D63341;
+}
+.header-menu{
+  flex-wrap: wrap;
+  justify-content: center;  
+  padding: 1.75em 0 1.75em 0;
+}
+.header-menu-link{
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: .5em .75em;
+}
+.header-menu-link:hover{
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color : white;
+  text-decoration-thickness : 15%;
+}
+
+.header-menu-link#active{
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color : white;
+  text-decoration-thickness : 15%;
+}
+
+.ghost-button{
+  border: .125em solid white;
+  min-width: 9em;
+  padding: 2 2em;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+.ghost-button:hover{
+  background: white;
+  color: #D63341;
+}
+
+
+
+@media only screen and (min-width: 1024px){ 
+  header{
+    overflow: hidden;
+  } 
+  img{
+    object-position: 50% 100%;
+  }
+  
+
+  .container{
+    padding: 0.1em 2.1em 0.1em 2.1em;
+  }
+  
+
+  .header-nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-menu-link{
+    padding: 0 1.5em;
+  }
+  .ghost-button{
+  font-size: 1.2em;
+  } 
+  
+  
+}
+
+@media only screen and (orientation: portrait) and (min-height: 1024px){
+  .header-content{
+    margin-top: 15vh;
+  }
+}
+/* ---------- HEADER ---------- */
+
+
+
+ /* ----------- FOOTER ----------- */
+
+footer {
+  background-image: url(../images/footer/footer_wave.svg);
+  background-size:  cover;
+   margin: 0;
+   margin-bottom: 0;
+   width: 100%;
+   padding: 7% 0 0% 0;
+   color: white;
+}
+
+.footer_gauche {
+  display: inline-block;
+  width: 20%;
+
+} 
+
+.footer_centre {
+  display: inline-block;
+  width: 58%;
+}
+
+img#logo_efrei {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p#footer {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer_droite {
+  display: inline-block;
+  width: 20%;
+} 
+
+ /* ----------- FOOTER ----------- */
+
+
+
+
+ /* ----------- BODY ----------- */
+
+.body {
+  padding: 1%;
+}
+
+ /* ----------- BODY ----------- */
+
+
+
+
+
+  /* ----------- FORMS ----------- */
+
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #D63341;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #D63341;
+}
