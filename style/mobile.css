@@ -110,3 +110,25 @@ button#footer-button {
   margin-right: auto;
   float: unset;
 }
+
+
+
+/* ----------- LOGIN ----------- */
+
+.div20 {
+  width: 100%;
+  display: block;
+}
+
+.div30 {
+  width: 100%;
+  display: block;
+  margin: 10px 0 50px 0;
+  
+}
+
+.formulaire {
+width: 65%;
+}
+
+/* ----------- LOGIN ----------- */

@@ -64,7 +64,7 @@ h5 {
   color: #d63341;
 }
 
-button.type1 {
+.type1 {
   background-color: #d63341;
   color: white;
   padding: 10px 20px 10px 20px;
@@ -96,7 +96,6 @@ button.type2:hover {
   border: 1px solid white;
   cursor: pointer;
 }
-
 
 /* ---------- HEADER ---------- */
 .container {
@@ -173,6 +172,17 @@ button.type2:hover {
   margin-left: 4%;
 }
 
+.white {
+  background-color: white;
+  color: #d63341;
+}
+
+.white:hover {
+  background-color: transparent;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
 .button-header:hover {
   color: #d63341;
   border: 1px solid transparent;
@@ -191,7 +201,6 @@ img#logo {
   header {
     overflow: hidden;
   }
-
 
   .container {
     padding: 0.1em 2.1em 0.1em 2.1em;
@@ -219,9 +228,6 @@ img#logo {
 } */
 
 /* ---------- HEADER ---------- */
-
-
-
 
 /* ----------- FOOTER ----------- */
 
@@ -315,6 +321,61 @@ select {
   color: #d63341;
 }
 
+input[type="email"],
+select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #d63341;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #d63341;
+}
+
+input[type="password"],
+select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #d63341;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #d63341;
+}
+
+::placeholder {
+  color: #d63341;
+  font-size: 1.2em;
+}
+
+input[type="submit"],
+select {
+  background-color: #d63341;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+input[type="submit"]:hover,
+select {
+  background-color: transparent;
+  color: #d63341;
+  border: 2px solid #d63341;
+  cursor: pointer;
+}
+
+input:focus {
+  background-color: #d9d9d94d;
+}
+
+*:focus {
+  outline: none;
+}
 
 /* ----------- INDEX ----------- */
 
@@ -383,5 +444,40 @@ img.sponsors {
   height: 10%;
 }
 
-
 /* ----------- INDEX ----------- */
+
+/* ----------- LOGIN ----------- */
+
+.div20 {
+  width: 10%;
+  display: inline-block;
+}
+
+.div30 {
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.formulaire {
+  height: 100px;
+  border-left: 5px solid #d63341;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 15px;
+  border-radius: 3px;
+  height: auto;
+}
+
+input#prenom {
+  width: 44.5%;
+}
+
+input#nom {
+  width: 44.5%;
+}
+
+/* ----------- LOGIN ----------- */
