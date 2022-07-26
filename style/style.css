@@ -80,6 +80,23 @@ button.type1:hover {
   cursor: pointer;
 }
 
+button.type2 {
+  background-color: white;
+  color: #d63341;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-family: Sora;
+}
+
+button.type2:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 
 /* ---------- HEADER ---------- */
 .container {
@@ -153,6 +170,7 @@ button.type1:hover {
   color: white;
   padding: 8px;
   text-align: center;
+  margin-left: 4%;
 }
 
 .button-header:hover {
@@ -213,7 +231,7 @@ footer {
   margin: 0;
   margin-bottom: 0;
   width: 100%;
-  padding: 7% 0 0% 0;
+  padding: 3% 2% 0% 2%;
   color: white;
 }
 
@@ -222,9 +240,19 @@ footer {
   width: 20%;
 }
 
+button#footer-button {
+  height: 40px;
+  float: left;
+}
+
 .footer_centre {
   display: inline-block;
   width: 58%;
+}
+
+.footer_droite {
+  display: inline-block;
+  width: 20%;
 }
 
 img#logo_efrei {
@@ -234,15 +262,25 @@ img#logo_efrei {
   margin-right: auto;
 }
 
+img#logo_efrei:hover {
+  opacity: 0.8;
+}
+
 p#footer {
   color: white;
   text-align: center;
   padding-top: 15px;
 }
 
-.footer_droite {
-  display: inline-block;
-  width: 20%;
+.footer-reseaux {
+  height: 40px;
+  float: right;
+  padding-left: 10px;
+}
+
+.footer-reseaux:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 /* ----------- FOOTER ----------- */

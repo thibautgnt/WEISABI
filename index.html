@@ -8,7 +8,9 @@
     <meta name="author" content="WEISABI" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="style/mobile.css" type="text/css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
@@ -16,38 +18,48 @@
     <!-- ------------------- HEADER ------------------- -->
     <header>
       <div data-aos="fade-down">
-      <nav class="header-nav container flex-container">
-        <h1 class="logo">
-          <a class="logo-link" href="#"
-            ><img id="logo" src="images/logos/horizontal_blanc.svg"
-          /></a>
-        </h1>
-        <ul class="header-menu flex-container">
-          <li><a class="header-menu-link" id="active" href="">Accueil</a></li>
-          <li><a class="header-menu-link" href="">Le week-end</a></li>
-          <li><a class="header-menu-link" href="">Parrainages</a></li>
-        </ul>
-        <div class="button-header ghost-button">Mon compte</div>
-      </nav>
-    </div>
+        <nav class="header-nav container flex-container">
+          <h1 class="logo">
+            <a class="logo-link" href="#"
+              ><img id="logo" src="images/logos/horizontal_blanc.svg"
+            /></a>
+          </h1>
+          <ul class="header-menu flex-container">
+            <li><a class="header-menu-link" id="active" href="">Accueil</a></li>
+            <li><a class="header-menu-link" href="">Le week-end</a></li>
+            <li><a class="header-menu-link" href="">Parrainages</a></li>
+          </ul>
+          <div class="button-header ghost-button">Mon compte</div>
+        </nav>
+      </div>
     </header>
     <!-- ------------------- HEADER ------------------- -->
 
     <!-- -------------------- BODY -------------------- -->
     <div data-aos="fade-down">
-    <div class="slider">
-      <img src="images/index/slider.svg" id="slider-img" alt="WEISABI 2022" />
+      <div class="slider">
+        <img src="images/index/slider.svg" id="slider-img" alt="WEISABI 2022" />
+      </div>
     </div>
-  </div>
 
     <div class="div50" style="padding-left: 5%">
       <div class="test">
-        <h1 style="font-family: Sora-Bold">LE WEI EST DE RETOUR !</h1><br /><br />
+        <h1 style="font-family: Sora-Bold">LE WEI EST DE RETOUR !</h1>
+        <br /><br />
         <br />
-        <h2>Save the date</h2><br />
-        
-        <p id="index">Après 2 ans, impossible de ne pas sauter<br />sur l'occasion !</p>
-        <div data-aos="zoom-in"><img src="images/index/dates.svg" id="dates" alt="DATES WEISABI 2022" /></div>
+        <h2>Save the date</h2>
+        <br />
+
+        <p id="index">
+          Après 2 ans, impossible de ne pas sauter<br />sur l'occasion !
+        </p>
+        <div data-aos="zoom-in">
+          <img
+            src="images/index/dates.svg"
+            id="dates"
+            alt="DATES WEISABI 2022"
+          />
+        </div>
       </div>
     </div>
     <div class="div50" style="padding-right: 5%">
@@ -60,7 +72,7 @@
 
     <div style="height: 100px"></div>
 
-    <div class="div50" style="padding-left: 5%">
+    <div id="notmobile" class="div50" style="padding-left: 5%">
       <div class="test">
         <a href="#"
           ><img src="images/index/photo2.svg" id="WEI" alt="WEISABI 2022"
@@ -69,7 +81,8 @@
     </div>
     <div class="div50" style="padding-right: 5%">
       <div class="test">
-        <h1>Le WEI, c'est quoi ?</h1><br />
+        <h1>Le WEI, c'est quoi ?</h1>
+        <br />
         <br />
         <p id="index">
           Il s'agit du <b>week-end d'intégration</b> de l'école.<br /><br /><br />
@@ -87,38 +100,46 @@
           On t’attend avec impatience !
         </p>
         <br /><br />
-        <div data-aos="flip-right"><button class="type1">En savoir plus</button></div>
-    
+        <div data-aos="flip-right">
+          <button class="type1">En savoir plus</button>
+        </div>
       </div>
     </div>
 
     <div style="height: 150px"></div>
 
-      <div class="box">
-    <h1>Ils nous soutiennent :</h1><br />
+    <div class="box">
+      <h1>Ils nous soutiennent :</h1>
+      <br />
 
-<hr>
-<marquee> <!-- Mettre les liens -->
-<img class="sponsors" src="images/index/sponsors/lydia.svg">
-<img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg">
-<img class="sponsors" src="images/index/sponsors/krys.svg">
-<a href="https://efrei.fr" target="_blank"><img class="sponsors" src="images/index/sponsors/efrei.svg"></a>
-<img class="sponsors" src="images/index/sponsors/lydia.svg">
-<img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg">
-<img class="sponsors" src="images/index/sponsors/krys.svg">
-<a href="https://efrei.fr" target="_blank"><img class="sponsors" src="images/index/sponsors/efrei.svg"></a>
-</marquee>
-<hr>
+      <hr />
+      <marquee>
+        <!-- Mettre les liens -->
+        <img class="sponsors" src="images/index/sponsors/lydia.svg" />
+        <img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg" />
+        <img class="sponsors" src="images/index/sponsors/krys.svg" />
+        <a href="https://efrei.fr" target="_blank"
+          ><img class="sponsors" src="images/index/sponsors/efrei.svg"
+        /></a>
+        <img class="sponsors" src="images/index/sponsors/lydia.svg" />
+        <img class="sponsors" src="images/index/sponsors/Sopra_Steria.svg" />
+        <img class="sponsors" src="images/index/sponsors/krys.svg" />
+        <a href="https://efrei.fr" target="_blank"
+          ><img class="sponsors" src="images/index/sponsors/efrei.svg"
+        /></a>
+      </marquee>
+      <hr />
+    </div>
 
-  </div>
-
-    <div style="height: 700px"></div>
+    <div style="height: 200px"></div>
 
     <!-- -------------------- BODY -------------------- -->
 
     <!-- ------------------- FOOTER ------------------- -->
     <footer>
-      <div class="footer_gauche">test</div>
+      <div class="footer_gauche">
+        <button id="footer-button" class="type2">Je prends ma place ></button>
+      </div>
 
       <div class="footer_centre">
         <a href="https://efrei.fr" target="_blank" alt="Site Efrei"
@@ -133,7 +154,15 @@
         </p>
       </div>
 
-      <div class="footer_droite">test</div>
+      <div class="footer_droite">
+
+        <img class="footer-reseaux" src="images/footer/instagram.svg" />
+        <img class="footer-reseaux" src="images/footer/discord.svg" />
+        <img class="footer-reseaux" src="images/footer/facebook.svg" />
+
+        <img class="footer-reseaux" src="images/footer/mail.svg" />
+
+      </div>
     </footer>
     <!-- ------------------- FOOTER ------------------- -->
     <script>

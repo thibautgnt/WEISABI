@@ -1,0 +1,112 @@
+/* MOBILE CSS */
+/* On gère le responsive par ici */
+
+* {
+  background-color: transparent;
+}
+
+.div50 {
+  width: 100%;
+  display: block;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+img#WEI {
+  width: 85%;
+  min-width: auto;
+  padding: 10px;
+}
+
+p#index {
+  width: 90%;
+}
+
+.test {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.slider {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.box {
+  width: 90%;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+img.sponsors {
+  height: 1% !important;
+}
+
+hr {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#notmobile {
+  display: none;
+}
+
+/* ----------- FOOTER ----------- */
+
+footer {
+  background-image: url(../images/footer/footer_wave.svg);
+  background-size: cover;
+  margin: 0;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 40% 2% 0% 2%;
+  color: white;
+}
+
+.footer_gauche {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+img#logo_efrei {
+  width: 25%;
+}
+
+.footer_centre {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer_droite {
+  display: flex;
+  width: 100%;
+  float: unset;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+P#footer {
+  margin-bottom: 30px;
+}
+
+button#footer-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: unset;
+}
+
+.footer-reseaux {
+  height: 25px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: unset;
+}
