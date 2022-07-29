@@ -42,6 +42,7 @@ p {
   hyphens: auto;
   line-height: 1.5;
   margin: 1em 0;
+  vertical-align: middle;
 }
 
 h1 {
@@ -73,12 +74,30 @@ h5 {
   font-size: 1.2em;
 }
 
+
 button.type1:hover {
   background-color: transparent;
   color: #d63341;
   border: 1px solid #d63341;
   cursor: pointer;
 }
+
+.type3 {
+  background-color: #d63341;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 1em;
+}
+
+button.type3:hover {
+  background-color: transparent;
+  color: #d63341;
+  border: 1px solid #d63341;
+  cursor: pointer;
+}
+
 
 button.type2 {
   background-color: white;
@@ -194,7 +213,7 @@ img#logo {
   object-fit: cover;
   object-position: 50% 80%;
   width: 75%;
-  padding: 10px 0 10px 0;
+  padding: 0px 0 0px 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -290,6 +309,45 @@ p#footer {
 }
 
 /* ----------- FOOTER ----------- */
+
+
+/* ----------- ALERTS ----------- */
+
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px 20px;
+  margin: 5px 0;
+  font-size: 17px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.alert-danger {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #f9e199;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-info {
+  color: #0D6EA4;
+  background-color: #AAD4EC;
+  border-color: #8DC9EA;
+}
+
+
+/* ----------- ALERTS ----------- */
+
+
+
 
 /* ----------- BODY ----------- */
 
@@ -517,6 +575,31 @@ input#double {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cadre {
+  border: 2px solid #d63341;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+}
+
+.profile-left {
+  width: 49%;
+  display: inline-block;
+}
+
+.profile-right {
+  width: 50%;
+  display: inline-block;
+  border-left: 2px solid #d63341;
+  padding-left: 10px;
+}
+
+.profilepicture {
+  border: 2px solid #d63341;
+  border-radius: 5px;
+  width: 20%;
 }
 
 /* ----------- ACCOUNT ----------- */
